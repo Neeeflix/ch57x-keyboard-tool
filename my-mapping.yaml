@@ -37,7 +37,7 @@ layers:
       # In vertical: `columns` rows `rows` buttons each.
       - ["escape", "ctrl-a", "ctrl-c", "alt-ctrl,ctrl-b"]
       - ["f20", "f", "g", "h"]
-      - ["click", "click(right)", "j", "ctrl-c"]
+      - ["click", "click(middle)", "j", "ctrl-c"]
     knobs:
       # Knobs are listed from left to right if horizontal.
       # Knobs are listed from top to bottom if vertical.
@@ -49,9 +49,9 @@ layers:
       - ccw: "wheel(5)"
         press: "shift-click"
         cw: "wheel(-5)"
-      - ccw: "wheel(1)"
+      - ccw: "wheel(2)"
         press: "click"
-        cw: "wheel(-1)"
+        cw: "wheel(-2)"
 
   - buttons:
       # Mouse events
