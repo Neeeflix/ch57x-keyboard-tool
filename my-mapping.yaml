@@ -37,7 +37,7 @@ layers:
       # In vertical: `columns` rows `rows` buttons each.
       - ["escape", "ctrl-a", "ctrl-c", "alt-ctrl,ctrl-b"]
       - ["f20", "f", "g", "h"]
-      - ["click", "click(middle)", "j", "ctrl-c"]
+      - ["click", "click(middle)", "webpageback", "webpageforward"]
     knobs:
       # Knobs are listed from left to right if horizontal.
       # Knobs are listed from top to bottom if vertical.
