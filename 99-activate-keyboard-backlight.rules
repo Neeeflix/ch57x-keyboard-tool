@@ -1,0 +1,1 @@
+ACTION=="add", ATTR{idVendor}=="1189", ATTR{idProduct}=="8842", RUN+="/usr/bin/ch57x-keyboard-tool led 0 'backlight green'"
